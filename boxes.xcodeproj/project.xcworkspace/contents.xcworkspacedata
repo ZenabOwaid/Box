@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Box.xcodeproj">
+      location = "self:/Users/zozo/Desktop/lightHouse/Course/Day2/Box/boxes.xcodeproj">
    </FileRef>
 </Workspace>

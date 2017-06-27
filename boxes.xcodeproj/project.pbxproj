@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB2026A31F029CFB00B75E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2026A21F029CFB00B75E48 /* main.m */; };
+		BB2026AB1F02A20900B75E48 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2026AA1F02A20900B75E48 /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BB20269F1F029CFB00B75E48 /* Box */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Box; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB20269F1F029CFB00B75E48 /* boxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = boxes; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2026A21F029CFB00B75E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB2026A91F02A20900B75E48 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		BB2026AA1F02A20900B75E48 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		BB2026961F029CFB00B75E48 = {
 			isa = PBXGroup;
 			children = (
-				BB2026A11F029CFB00B75E48 /* Box */,
+				BB2026A11F029CFB00B75E48 /* boxes */,
 				BB2026A01F029CFB00B75E48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +52,28 @@
 		BB2026A01F029CFB00B75E48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB20269F1F029CFB00B75E48 /* Box */,
+				BB20269F1F029CFB00B75E48 /* boxes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB2026A11F029CFB00B75E48 /* Box */ = {
+		BB2026A11F029CFB00B75E48 /* boxes */ = {
 			isa = PBXGroup;
 			children = (
 				BB2026A21F029CFB00B75E48 /* main.m */,
+				BB2026A91F02A20900B75E48 /* Box.h */,
+				BB2026AA1F02A20900B75E48 /* Box.m */,
 			);
+			name = boxes;
 			path = Box;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB20269E1F029CFB00B75E48 /* Box */ = {
+		BB20269E1F029CFB00B75E48 /* boxes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB2026A61F029CFB00B75E48 /* Build configuration list for PBXNativeTarget "Box" */;
+			buildConfigurationList = BB2026A61F029CFB00B75E48 /* Build configuration list for PBXNativeTarget "boxes" */;
 			buildPhases = (
 				BB20269B1F029CFB00B75E48 /* Sources */,
 				BB20269C1F029CFB00B75E48 /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = Box;
+			name = boxes;
 			productName = Box;
-			productReference = BB20269F1F029CFB00B75E48 /* Box */;
+			productReference = BB20269F1F029CFB00B75E48 /* boxes */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB20269A1F029CFB00B75E48 /* Build configuration list for PBXProject "Box" */;
+			buildConfigurationList = BB20269A1F029CFB00B75E48 /* Build configuration list for PBXProject "boxes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB20269E1F029CFB00B75E48 /* Box */,
+				BB20269E1F029CFB00B75E48 /* boxes */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2026A31F029CFB00B75E48 /* main.m in Sources */,
+				BB2026AB1F02A20900B75E48 /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +239,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB20269A1F029CFB00B75E48 /* Build configuration list for PBXProject "Box" */ = {
+		BB20269A1F029CFB00B75E48 /* Build configuration list for PBXProject "boxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB2026A41F029CFB00B75E48 /* Debug */,
@@ -241,7 +248,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB2026A61F029CFB00B75E48 /* Build configuration list for PBXNativeTarget "Box" */ = {
+		BB2026A61F029CFB00B75E48 /* Build configuration list for PBXNativeTarget "boxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB2026A71F029CFB00B75E48 /* Debug */,
